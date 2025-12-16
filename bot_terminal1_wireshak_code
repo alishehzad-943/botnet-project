@@ -1,0 +1,8 @@
+    1  clear
+    2  sudo tcpdump -i any -s 0 -w /home/ubuntu/bot_controller.pcap tcp portrange 5000-5010
+    3  clear
+    4  sudo tcpdump -i any -s 0 -w /home/ubuntu/bot_controller.pcap tcp portrange 5000-5010
+    5  ls -lh /home/ubuntu/bot_controller.pcap
+    6  sudo tcpdump -i any -s 0 -w /home/ubuntu/bot_controller.pcap -E ether tcp portrange 5000-5010
+    7  sudo tcpdump -i ens5 -s 0 -w /home/ubuntu/bot_controller.pcap tcp portrange 5000-5010
+    8  history
