@@ -1,0 +1,44 @@
+   1  ls
+    2  clear
+    3  sudo apt update
+    4  sudo apt upgrade -y
+    5  clear
+    6  sudo apt update -y
+    7  sudo apt install mono-complete unzip wget -y
+    8  clear
+    9  sudo apt update -y
+   10  sudo apt install mono-complete unzip wget -y
+   11  clear
+   12  wget https://github.com/billbuchanan/csn09112/raw/master/coursework/cw_2025_2026.zip
+   13  unzip cw_2025_2026.zip
+   14  cd cw_2025_2026
+   15  clear
+   16  rm -rf *
+   17  ll
+   18  cd
+   19  rm -rf *
+   20  clear
+   21  wget https://github.com/billbuchanan/csn09112/raw/master/coursework/cw_2025_2026.zip
+   22  unzip cw_2025_2026.zip
+   23  cd cw_2025_2026
+   24  mono c.exe
+   25  clear
+   26  mono c.exe
+   27  clear
+   28  cd ~/cw_2025_2026
+   29  mono c.exe
+   30  clear
+   31  cd
+   32  cd ~/cw_2025_2026
+   33  mono c.exe
+   34  cd
+   35  clear
+   36  cd ~/cw_2025_2026
+   37  mono c.exe
+   38  clear
+   39  cd
+   40  cd ~/cw_2025_2026
+   41  mono c.exe
+   42  clear
+   43  mono c.exe
+   44  history
