@@ -1,0 +1,46 @@
+ 1  ll
+    2  clear
+    3  sudo apt update
+    4  sudo apt upgrade -y
+    5  clear
+    6  sudo apt update -y
+    7  sudo apt install mono-complete unzip wget tcpdump -y
+    8  clear
+    9  sudo apt update
+   10  sudo apt install mono-complete unzip wget tcpdump -y
+   11  clear
+   12  wget https://github.com/billbuchanan/csn09112/raw/master/coursework/cw_2025_2026.zip
+   13  unzip cw_2025_2026.zip
+   14  cd cw_2025_2026
+   15  chmod +x b.exe
+   16  ./b.exe 13.51.55.178 40736675
+   17  clear
+   18  ./b.exe 13.51.55.178 40736675
+   19  clear
+   20  ./b.exe 13.51.55.178 40736675
+   21  clear
+   22  ./b.exe 13.51.55.178 40736675
+   23  clear
+   24  cd ~/cw_2025_2026
+   25  ./b.exe 13.51.55.178 40736675
+   26  clear
+   27  cd
+   28  cd ~/cw_2025_2026
+   29  ./b.exe 13.51.55.178 40736675
+   30  sudo netstat -tulpn | grep 5000
+   31  sudo ss -tulpn | grep 5000
+   32  sudo apt update
+   33  sudo apt install net-tools
+   34  netstat -tulpn | grep 5000
+   35  clear
+   36  cd
+   37  clear
+   38  cd ~/cw_2025_2026
+   39  ./b.exe 172.31.22.52 40736675
+   40  clear
+   41  ./b.exe 172.31.22.52 40736675
+   42  clear
+   43  ./b.exe 172.31.22.52 40736675
+   44  cd
+   45  history
+
