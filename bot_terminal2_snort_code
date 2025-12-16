@@ -1,0 +1,21 @@
+    1  clear
+    2  sudo apt update
+    3  sudo apt install snort -y
+    4  clear
+    5  sudo apt update
+    6  sudo apt install snort -y
+    7  vim cw.rules
+    8  mkdir log
+    9  snort -c ~/cw.rules -r /home/ubuntu/bot_controller.pcap -k none -l ~/snort_logs
+   10  snort -c ~/cw.rules -r /home/ubuntu/bot_controller.pcap -k none -l ~/log
+   11  clear
+   12  ls -lh /home/ubuntu/bot_controller.pcap
+   13  clear
+   14  mkdir -p ~/snort_logs
+   15  snort -c ~/cw.rules -r /home/ubuntu/bot_controller.pcap -k none -l ~/snort_logs
+   16  cat ~/snort_logs/alert
+   17  clear
+   18  snort -c ~/cw.rules -r /home/ubuntu/bot_controller.pcap -k none -l ~/snort_logs
+   19  cat ~/snort_logs/alert
+   20  snort -c ~/cw.rules -r /home/ubuntu/bot_controller.pcap -k none -l ~/snort_logs
+   21  history
